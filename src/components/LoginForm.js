@@ -20,7 +20,7 @@ const Login = () => {
   };
 
   useEffect(() => {
-    // Check the validity of the login
+   
     const isValidLogin = currentUser !== null;
 
     if (isValidLogin) {
